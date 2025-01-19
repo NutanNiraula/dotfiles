@@ -1,0 +1,38 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2"
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "language_models": {
+    "openai": {
+      "version": "1",
+      "api_url": "http://localhost:1234/v1",
+      "available_models": [
+        {
+          "provider": "openai",
+          "name": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+          "display_name": "LM Studio",
+          "max_tokens": 2048
+        }
+      ]
+    }
+  },
+  "theme": "Xcode Presentation Darker",
+  "ui_font_size": 16,
+  "buffer_font_size": 16
+}
