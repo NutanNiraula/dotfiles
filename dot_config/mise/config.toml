@@ -1,0 +1,4 @@
+[tools]
+tuist = "system"
+python = "3.12"
+node = "23.6.0"
