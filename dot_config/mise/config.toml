@@ -2,3 +2,4 @@
 tuist = "system"
 python = "3.12"
 node = "23.6.0"
+deno = "2.1.9"
